@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Vaibhav Gurav</title>
+  </head>
+  <body>
+    <!-- Header start -->
+    <header class="container">
+      <div class="row">
+        <figure class="col-xl-2 logo">
+          <img src="./Images/letter-v (3).png" alt="logo" />
+        </figure>
+
+        <nav class="col-xl-10">
+          <ul class="nav justify-content-end top-menu">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><span class="num">> </span>Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="num">> </span>About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><span class="num">> </span>Experience</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="num">> </span>Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><span class="num">> </span>Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Profile Section Start -->
+
+    <section class="profile-section container">
+      <div class="row">
+        <div class="col-xl-8 text-light">
+          <h6 style="color: rgb(100 255 218)">Hi, my name is</h6>
+
+          <h1>Vaibhav Gurav.</h1>
+
+          <!-- <h1>I Love to Build Web</h1><br><br> -->
+          <br />
+          <p
+            style="
+              font-family: 'Courier New', Courier, monospace;
+              font-size: 30px;
+              color: rgb(100 255 218);
+              padding: 10px;
+            "
+          >
+            <img src="./Images/sap.png" alt="" id="sap" />
+
+            SAP-ABAP Developer |
+            <img src="./Images/react.png" alt="" id="sap" /> React Developer
+          </p>
+          <p>
+            I'm a web development enthusiast with proficiency in React and SAP
+            ABAP, currently seeking new job opportunities where I can apply my
+            skills to create innovative and efficient web applications. My
+            professional journey reflects my commitment to excellence and my
+            ability to adapt to evolving technologies.
+          </p>
+        </div>
+        <div class="col-xl-4">
+          <div class="photo-box">
+            <img
+              src="./Images/vaibhav.jpg"
+              class="img-fluid border border-primary-subtle rounded-4 border-3 myimg"
+              alt="Profile Photo"
+              width="350px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Profile Section End -->
+
+    <!-- Education start -->
+    <div class="container edu">
+      <h1
+        class="text-center"
+        style="font-family: monospace; color: #8997c6; font-size: 70px"
+      >
+        Education
+      </h1>
+      <ul
+        class="nav nav-tabs border-top border-primary-subtle border-1"
+        id="myTab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="postgrad-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#postgrad-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="postgrad-tab-pane"
+            aria-selected="true"
+          >
+            Post Graduation
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="graduation-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#graduation-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="graduation-tab-pane"
+            aria-selected="false"
+          >
+            Graduation
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="hsc-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#hsc-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="hsc-tab-pane"
+            aria-selected="false"
+          >
+            HSC
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="ssc-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#ssc-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="ssc-tab-pane"
+            aria-selected="false"
+          >
+            SSC
+          </button>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="postgrad-tab-pane"
+          role="tabpanel"
+          aria-labelledby="postgrad-tab"
+          tabindex="0"
+        >
+          <div class="d-flex align-items-center">
+            <div class="me-4">
+              <img
+                src="https://www.starnewsonline.com/gcdn/authoring/authoring-images/2024/07/07/NSTN/74320600007-new-hanover-high.jpg?width=660&height=495&fit=crop&format=pjpg&auto=webp"
+                alt="Post Graduation College Photo"
+                class="college-photo"
+                width="400px"
+              />
+            </div>
+            <div>
+              <h4 style="color: rgb(255, 127, 148); font-family: monospace">
+                Institude of management studies and information technology
+                (IMSIT)
+              </h4>
+              <h4 style="color: aquamarine; font-family: monospace">
+                Stream : MCA
+              </h4>
+              <h4 style="color: aquamarine; font-family: monospace">
+                Grade: 8.3 CGPA
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="graduation-tab-pane"
+          role="tabpanel"
+          aria-labelledby="graduation-tab"
+          tabindex="0"
+        >
+          <div class="d-flex align-items-center">
+            <div class="me-4">
+              <img
+                src="https://c4.wallpaperflare.com/wallpaper/485/65/161/stanford-university-hd-wallpaper-wallpaper-preview.jpg"
+                alt="Graduation College Photo"
+                class="college-photo"
+                width="500px"
+              />
+            </div>
+            <div>
+              <h4 style="color: rgb(255, 127, 148); font-family: monospace">
+                MGM's Dr. G.Y. Pathrikar College Of Computer Science And
+                Information Technology
+              </h4>
+              <h4 style="color: aquamarine; font-family: monospace">
+                Stream : B.SC. - Information Technology
+              </h4>
+              <h4 style="color: aquamarine; font-family: monospace">
+                Grade: 8.0 CGPA
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="hsc-tab-pane"
+          role="tabpanel"
+          aria-labelledby="hsc-tab"
+          tabindex="0"
+        >
+          <div class="d-flex align-items-center">
+            <div class="me-4">
+              <img
+                src="https://i.pinimg.com/736x/c1/5f/9c/c15f9c3e9186af9e38fb7c5fa55d1c94.jpg"
+                alt="HSC College Photo"
+                class="college-photo"
+                width="500px"
+              />
+            </div>
+            <div>
+              <h4 style="color: rgb(255, 127, 148); font-family: monospace">
+                Vivekanand Arts, Sardar Dalipsingh Commerce and Science College
+              </h4>
+              <h4 style="color: aquamarine; font-family: monospace">
+                Stream : Science
+              </h4>
+              <h4 style="color: aquamarine; font-family: monospace">
+                Percentage : 86%
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="ssc-tab-pane"
+          role="tabpanel"
+          aria-labelledby="ssc-tab"
+          tabindex="0"
+        >
+          <div class="d-flex align-items-center">
+            <div class="me-4">
+              <img
+                src="https://wallpapercave.com/wp/wp2468660.jpg"
+                alt="SSC College Photo"
+                class="college-photo"
+                width="500px"
+              />
+            </div>
+            <div>
+              <h4 style="color: rgb(255, 127, 148); font-family: monospace">
+                Saint Meera School - Aurangabad
+              </h4>
+              <h4 style="color: aquamarine; font-family: monospace">
+                Percentage : 92%
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education End -->
+
+    <!-- Langague slider start-->
+    <div class="slider">
+      <div class="slide-track">
+        <div class="slide">
+          <img src="./Images/sap(1).png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./Images/python.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./Images/react(1).png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./Images/html-5.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./Images/css-3.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./Images/js.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./Images/java.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./Images/c.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./Images/php.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./Images/docker.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./Images/vue.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./Images/aws.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Langague Slider End -->
+
+    <!-- Contact section -->
+
+    <section class="contact-section">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Contact Form</h5>
+          <form class="contact-form">
+            <input type="text" class="form-control" placeholder="Name" />
+            <input type="email" class="form-control" placeholder="Email" />
+            <button type="submit" class="btn btn-primary btn-block">
+              Send
+            </button>
+          </form>
+        </div>
+        <div class="col-md-4">
+          <a href="#">
+            <button class="btn btn-secondary btn-block mt-4">Download</button>
+          </a>
+        </div>
+        <div class="col-md-4" id="cr">
+          <p>Contact No: (+91)9923903278</p>
+          <p>Email: vaibhavgurav1937@gmail.com</p>
+          <p>
+            <a href="https://github.com/vaibhav-gurav-01" target="_blank"
+              >Github</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://in.linkedin.com/in/vaibhav-gurav-2b6910212"
+              target="_blank"
+              >Linkedin</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section end -->
+
+    <!-- footer  -->
+    <!-- Footer -->
+    <footer class="footer">Design by: Vaibhav Gurav.</footer>
+  </body>
+</html>
